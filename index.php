@@ -11,6 +11,7 @@ $accounts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div class="card">
     <div class="card-header">
         <a name="" id="" class="btn btn-primary" href="create.php" role="button">Creat new account</a>
+        <a name="" id="" class="btn btn-danger float-end" href="logout.php" role="button">Logout</a>
     </div>
     <div class="card-body">
         <div class="table-responsive-sm">
