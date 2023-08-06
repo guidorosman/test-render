@@ -1,8 +1,7 @@
 <?php
 session_start();
-$base_url = "http://localhost/test/";
 if(!isset($_SESSION['username'])){
-    header("Location:".$base_url."login.php");
+    header("Location:login.php");
 }
 ?>
 <!doctype html>
